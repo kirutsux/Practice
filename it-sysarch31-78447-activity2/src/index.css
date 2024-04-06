@@ -1,0 +1,77 @@
+header {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+
+nav {
+  background-color: #444; 
+}
+
+nav ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+
+nav ul li {
+  display: inline; 
+}
+
+nav ul li a {
+  display: block;
+  color: #fff; 
+  text-decoration: none; 
+  padding: 10px 20px; 
+}
+
+nav ul li a:hover {
+  background-color: #555; 
+}
+
+footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+}
+
+
+.card {
+  border: 2px solid #333; 
+  padding: 10px; 
+  width: 230px; 
+  margin: 10px;
+  text-align: center;
+}
+
+
+.card img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 50%;
+}
+
+.card h2 {
+  color: #333; 
+}
+
+.card p {
+  color: #666;
+}
+
+.students-container {
+  display: flex; /* Use flexbox layout */
+}
+
+/* Optional: Add spacing between student components */
+.students-container > * {
+  margin-right: 10px; /* Adjust as needed */
+}
